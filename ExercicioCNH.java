@@ -13,7 +13,7 @@ public class ExercicioCNH {
             System.out.print("Ok, proxima pergunta: Voce foi aprovado no Exame de Direcao? Responda 1 para Sim ou 0 para Nao\n Resposta: ");
             int value3 = scan.nextInt();
             
-            //Condicional para determinar se o usuário está habilitado ou não para conduzir um veículo
+            //Condicional para determinar e apresentar ao usuário se ele está habilitado ou não a conduzir um veículo
             if (value1 == 1 && value2 == 1 && value3 == 1)
             {
                 System.out.print("Voce pode conduzir um veiculo");
